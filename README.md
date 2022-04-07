@@ -22,3 +22,21 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Package
+tymon/jwt-auth  with command composer require tymon/jwt-auth
+
+## Setup DB
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=rest_api_lumen
+DB_USERNAME=root
+DB_PASSWORD=
+
+with command composer php artisan migrate
+
+
+## Testing Rest Client
+open file rest-client.http or click [here](https://github.com/ibnuhamdani11/rest-api-lumen/blob/master/rest-client.http)
