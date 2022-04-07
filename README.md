@@ -25,7 +25,7 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 
 ## Package
-tymon/jwt-auth  with command composer require tymon/jwt-auth
+tymon/jwt-auth  reference [here](https://dev.to/meherulsust/how-to-build-a-jwt-authenticated-api-with-lumen-831-171o)
 
 ## Setup DB
 DB_CONNECTION=mysql

@@ -1,13 +1,23 @@
-@hostname = http://localhost/rest-api-lumen/index.php
+@hostname = http://localhost/rest-api-lumen/index.php/api
 
 ###### Register
 POST {{hostname}}/register-user
 content-type: application/json
 
 {
-    "name" : "ibnu1",
+    "name" : "ibnu2",
     "password" : "123", 
     "country_code" : "+62",
     "phone_number" : "83234134569",
+    "email" : "ibnu@gmail.com"
+}
+
+
+###### Login
+POST {{hostname}}/login
+content-type: application/json
+
+{ 
+    "password" : "123",  
     "email" : "ibnu@gmail.com"
 }
